@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+  <route url="/" module="News" action="index" />
+  <route url="/news-([0-9]+)\.html" module="News" action="show" vars="id"/>
+  <route url="/commenter-([0-9]+)\.html" module="News" action="insertComment" vars="news" />
+  <route url="/agenda" module="Agenda" action="index" />
+  <route url="/competitions/adultes/top-loire" module="Compet" action="topLoire" />
+  <route url="/competitions/adultes/open-de-la-loire" module="Compet" action="openDeLaLoire" />
+  <route url="/competitions/adultes/coupe-de-la-loire" module="Compet" action="coupeDeLaLoire" />
+  <route url="/competitions/adultes/coupe-loubatiere" module="Compet" action="coupeLoubatiere" />
+	<route url="/competitions/jeunes/championnat-scolaire" module="Compet" action="championnatScolaire" />
+	<route url="/competitions/jeunes/circuit-loire" module="Compet" action="circuitLoire" />
+	<route url="/competitions/jeunes/championnat-de-la-loire" module="Compet" action="championnatDeLaLoire" />
+	<route url="/competitions/jeunes/trophe-jeunes" module="Compet" action="tropheJeunes" />
+	<route url="/competitions/jeunes/finale-circuit-loire" module="Compet" action="finaleCircuitLoire" />
+	<route url="/elo" module="Elo" action="index" />
+	<route url="/comite-loire-echecs/presentation" module="Presentation" action="index" />
+	<route url="/comite-loire-echecs/organigramme" module="Organigramme" action="index" />
+	<route url="/comite-loire-echecs/clubs" module="Club" action="index" />
+	<route url="/comite-loire-echecs/tarif-des-licences" module="Tarif" action="index" />
+	<route url="/comite-loire-echecs/documents" module="Doc" action="index" />
+	<route url="/formation" module="Formation" action="index" />
+	<route url="/base-des-parties" module="Parties" action="index" />
+</routes>

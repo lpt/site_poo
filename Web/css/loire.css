@@ -1,0 +1,50 @@
+﻿body
+{
+	background-color: grey;
+	
+	
+}
+
+#bloc
+{
+	background-color: white;
+	border-radius: 10px;
+}
+
+
+	
+
+ .jumbotron {
+        background-color: white;
+	font-text: "Trebuchet MS", Helvetica, sans-serif;
+	color: #666;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	  }
+/*
+[class*="col-"], footer {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+}*/
+
+.papi_liste_c {font-family:Arial; font-size:10pt; color: #000000; background-color: #FFFFFF;}
+
+ .papi_liste_f {font-family:Arial; font-size:10pt; color: #000000; background-color: #E0E0E0;}
+
+ .papi_liste_t {font-family:Arial; font-size:10pt; color: #000000; background-color: #FFFFFF; font-weight: bold;}
+
+ .papi_small_c {font-family:Arial; font-size:8pt; color: #000000; background-color: #FFFFFF;}
+
+ .papi_small_f {font-family:Arial; font-size:8pt; color: #000000; background-color: #E0E0E0;}
+
+ .papi_small_t {font-family:Arial; font-size:8pt; color: #000000; background-color: #FFFFFF; font-weight: bold;}
+
+ .papi_titre {font-family:Arial; font-size:12pt; font-weight:bold; height:50px}
+
+ .papi_titre_big {font-family:Arial; font-size:24pt; font-weight:bold;}
+
+
