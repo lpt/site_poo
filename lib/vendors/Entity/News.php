@@ -9,7 +9,7 @@ class News extends Entity
             $titre,
             $contenu,
             $dateAjout,
-            $dateModif,
+            $dateModif;
 						
   const AUTEUR_INVALIDE = 1;
   const TITRE_INVALIDE = 2;
